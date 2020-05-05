@@ -107,6 +107,9 @@ $(BUILD_DIR)/$(MACH)/.built: $(SOURCE_DIR)/.patched
 	  echo export ONNV_BUILDNUM=$(ONNV_BUILDNUM); \
 	  echo export PKGVERS_BRANCH=$(ONNV_BUILDNUM); \
 	  echo export BOOTBANNER1=\"$(DISTRIBUTION_NAME) $(DISTRIBUTION_VERSION) Version ^v ^w-bit\") > \
+	  echo export BOOTBANNER2=\"    this     for\") > \
+	  echo export BOOTBANNER3=\"      one      Patrick\") > \
+	  echo export BOOTBANNER4=\"          is\") > \
 	  illumos.sh && \
 	  time $(ENV) -i ./usr/src/tools/scripts/nightly illumos.sh
 	$(TOUCH) $@

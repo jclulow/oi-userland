@@ -106,7 +106,7 @@ ROOT =			/
 # currently rely on format of first line in this file
 # to determine the distribution version
 # (it should look like OpenIndiana Hipster YYYY.MM).
-DISTRIBUTION_NAME = OpenIndiana Hipster
+DISTRIBUTION_NAME = OpenIndiana Hipster [unix.house]
 DISTRIBUTION_VERSION = 2020.04
 # Native OS version
 OS_VERSION :=		$(shell uname -r)
