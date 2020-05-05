@@ -28,6 +28,12 @@ COMPONENT_ARCHIVE_HASH= 	sha256:737acc16715dbf911e833dd80fa27c49b2264c11800b0202
 COMPONENT_LICENSE=			Apache 2.0
 COMPONENT_LICENSE_FILE=		license.txt
 
+#
+# At least one directory in the ZIP file appears to be extracted without write
+# permissions; this breaks the clean target.
+#
+PRE_CLEAN_ACTION = /bin/chmod -fR u+wx $(COMPONENT_SRC)
+
 FONT_TYPE = TTF
 
 include $(WS_MAKE_RULES)/font.mk
