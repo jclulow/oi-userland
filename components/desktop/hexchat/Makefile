@@ -65,3 +65,4 @@ REQUIRED_PACKAGES += runtime/python-27
 REQUIRED_PACKAGES += system/library
 REQUIRED_PACKAGES += $(GXX_RUNTIME_PKG)
 REQUIRED_PACKAGES += system/library/libdbus-glib
+REQUIRED_PACKAGES += developer/build/autoconf-archive
