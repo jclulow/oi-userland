@@ -62,3 +62,4 @@ test:		$(TEST_32_and_64)
 
 # Build dependencies
 REQUIRED_PACKAGES+= system/header/header-ugen
+REQUIRED_PACKAGES+= system/library/usb/libusb
