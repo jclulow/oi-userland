@@ -67,6 +67,7 @@ install:	$(INSTALL_32_and_64)
 
 test:		$(TEST_32_and_64)
 
+REQUIRED_PACKAGES += runtime/python-34
 REQUIRED_PACKAGES += library/python/markdown-34
 REQUIRED_PACKAGES += developer/build/autoconf-archive
 # Auto-generated dependencies
