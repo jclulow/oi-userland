@@ -65,3 +65,4 @@ REQUIRED_PACKAGES += library/desktop/gtk2
 REQUIRED_PACKAGES += library/glib2
 REQUIRED_PACKAGES += system/library
 REQUIRED_PACKAGES += x11/library/libx11
+REQUIRED_PACKAGES += developer/build/automake-116
