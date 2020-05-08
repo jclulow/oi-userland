@@ -186,6 +186,7 @@ test:		$(TEST_32_and_64)
 # Build dependencies
 REQUIRED_PACKAGES += runtime/perl-522
 REQUIRED_PACKAGES += runtime/python-27
+REQUIRED_PACKAGES += web/server/apache-24
 
 # Auto-generated dependencies
 REQUIRED_PACKAGES += database/sqlite-3
