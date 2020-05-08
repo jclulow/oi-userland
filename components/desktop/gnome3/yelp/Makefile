@@ -64,3 +64,4 @@ REQUIRED_PACKAGES += system/library/math
 REQUIRED_PACKAGES += system/man
 REQUIRED_PACKAGES += text/gnu-grep
 REQUIRED_PACKAGES += text/groff/groff-core
+REQUIRED_PACKAGES += text/itstool
