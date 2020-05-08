@@ -58,6 +58,7 @@ $(BUILD_DIR)/%/.tested:		$(BUILD_DIR)/%/.installed
 clean::
 	$(RM) -r $(BUILD_DIR) $(PROTO_DIR)
 
+REQUIRED_PACKAGES += runtime/sbcl
 # Auto-generated dependencies
 REQUIRED_PACKAGES += library/zlib
 REQUIRED_PACKAGES += system/library
