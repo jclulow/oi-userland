@@ -37,4 +37,5 @@ PACKAGE_NAMES += consolidation/sfw/sfw-incorporation
 PACKAGE_NAMES += consolidation/solaris_re/solaris_re-incorporation
 PACKAGE_NAMES += consolidation/SunVTS/SunVTS-incorporation
 PACKAGE_NAMES += consolidation/xvm/xvm-incorporation
+PACKAGE_NAMES += consolidation/nspg/nspg-incorporation
 PACKAGE_NAMES += SUNWacpidump

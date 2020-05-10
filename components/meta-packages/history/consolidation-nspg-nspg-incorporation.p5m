@@ -1,0 +1,5 @@
+set name=pkg.fmri value=pkg:/consolidation/nspg/nspg-incorporation@0.5.11,5.11-2020.0.1.0
+set name=org.opensolaris.consolidation value=$(CONSOLIDATION)
+set name=pkg.description value="Empty incorporation package"
+set name=pkg.summary value="Empty incorporation package"
+set name=description value="Empty incorporation package"
