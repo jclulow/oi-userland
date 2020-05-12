@@ -45,6 +45,7 @@ include $(WS_TOP)/make-rules/configure.mk
 include $(WS_TOP)/make-rules/ips.mk
 
 CONFIGURE_OPTIONS += --with-appresdir=$(CONFIGURE_PREFIX)/X11/lib/X11/app-defaults
+CONFIGURE_OPTIONS += --with-compatibility-wrappers=yes
 
 COMPONENT_INSTALL_ARGS += legacyfontdir=/usr/lib/font
 COMPONENT_INSTALL_ARGS += appresdir=/usr/X11/lib/X11/app-defaults
@@ -60,6 +61,7 @@ install:	$(INSTALL_64)
 test:		$(TEST_64)
 
 REQUIRED_PACKAGES += developer/test/dejagnu
+REQUIRED_PACKAGES += text/doctools
 # Auto-generated dependencies
 REQUIRED_PACKAGES += runtime/perl-522
 REQUIRED_PACKAGES += runtime/perl-524
